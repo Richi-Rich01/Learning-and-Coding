@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<HTML LANG="EN">
+<head>
+    <title STYLE="COLOR: BLACK; FONT-FAMILY: CURSIVE; FONT-WEIGHT: BOLD;">
+        CONTACT US
+    </title>
+    <meta NAME="VIEWPORT" CONTENT="WIDTH=DEVICE-WIDTH, INITIAL-SCALE=1.0">
+    <script>
+        function ALERT() {
+        alert("INFORMATION SUBMITTED SUCCESSFULLY! WE WILL CONTACT YOU SOON..!");
+  }
+</script>
+    <STYle>
+    BODY{
+        background-color: RGB(255, 251, 241);
+
+    }
+    FORM{
+        color: rgb(94, 77, 36);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+    }
+    INPUT{
+        width: 40%;
+        MARGIN: AUTO;
+        HEIGHT: 50%;
+        MARGIN-BOTTOM: 5%;
+    }
+    BUTTON{
+        width: 20%;
+        height: 40%;
+        MARGIN: AUTO;
+        HEIGHT: 50%;
+        MARGIN-BOTTOM: 5%;
+    }
+    </STYle>
+</head>
+<BODY>
+<header>
+    <nav STYLE=" DISPLAY: FLEX; COLOR: rgb(0, 0, 0); font-family: cursive; FONT-SIZE: 18PX; TEXT-ALIGN: CENTER;">
+        <UL style=" list-style: none; ORDER: HORIZONTAL; DISPLAY: FLEX; GAP: 20PX; FONT-FAMILY: ARIAL; COLOR: GREY;">
+            <LI ><A href="INDEX.html">HOME</A></LI>
+            <LI><A href="CONTACT.html">CONTACT</A></LI>
+        </UL>
+    </nav>
+        <H1 STYLE=" COLOR: BLACK; FONT-FAMILY: ARIAL; FONT-SIZE: LARGE; TEXT-ALIGN: CENTER;">CONTACT US</H1>
+    </header>
+<P style="text-align: center; FONT-SIZE:MEDIUM"> BELOW IS A FORM TO RECIEVE YOUR CONTACT INFORMATION.<BR>THIS INFORMATION WILL BE USED TO CONTACT YOU.</P>
+<MAIN>
+    <form style="flex-direction: column; MARGIN: AUTO; WIDTH: 50%; HEIGHT: 100%; DISPLAY: FLEX;">
+
+    <label FOR="NAME" >NAME</label>
+        <input id="NAME" name="NAME" type="text" placeholder="Enter your name" required>
+
+    <label FOR="EMAIL" >EMAIL</label>
+        <input id="EMAIL" name="EMAIL" type="email" placeholder="Enter your email" required>
+
+    <label FOR="MESSAGE" >MESSAGE</label>
+        <textarea id="MESSAGE" name="MESSAGE" placeholder="Enter your message" required></textarea>
+
+    <button type="submit" onclick="ALERT()" >Submit</button>
+</form>
+</MAIN>
+<footer style="text-align: center; padding: 20 px; margin-top: 20px;">
+        EMAIL: contact@learningandcoding.com
+
+        <p>© 2026 Learning and Coding. All rights reserved.</p>
+        <address>Created by: RUCHI RUDANI</address>
+    </footer>
+</BODY>
+</HTML>
