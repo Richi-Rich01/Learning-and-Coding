@@ -6,11 +6,6 @@
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script>
-        function ALERT() {
-        alert("INFORMATION SUBMITTED SUCCESSFULLY! WE WILL CONTACT YOU SOON..!");
-        }
-    </script>
 </head>
 <body>
 <header>
@@ -23,7 +18,7 @@
         <h1>CONTACT US</h1>
     </header>
 <p> BELOW IS A FORM TO RECIEVE YOUR CONTACT INFORMATION.<br>THIS INFORMATION WILL BE USED TO CONTACT YOU.</p>
-<main>
+<main><section class="reveal">
     <form>
 
     <label for="NAME" >NAME</label>
@@ -35,13 +30,15 @@
     <label for="MESSAGE" >MESSAGE</label>
         <textarea id="MESSAGE" name="MESSAGE" placeholder="Enter your message" required></textarea>
 
-    <button type="submit" onclick="ALERT()" >Submit</button>
+    <button type="submit">Submit</button>
 </form>
+</section>
 </main>
 <footer>
         EMAIL: contact@learningandcoding.com
         <p>© 2026 Learning and Coding. All rights reserved.</p>
         <address>Created by: RUCHI RUDANI</address>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
